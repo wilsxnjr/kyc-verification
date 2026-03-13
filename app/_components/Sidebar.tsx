@@ -66,7 +66,7 @@ export function Sidebar({ currentStep }: SidebarProps) {
 
   return (
     <>
-      <aside className="hidden md:flex fixed left-0 top-0 bottom-0 w-[280px] bg-white border-r border-gray-100 flex-col px-6 py-8 z-20">
+      <aside className="hidden md:flex fixed left-0 top-0 bottom-0 w-[260px] bg-white border-r border-gray-100 flex-col px-6 py-8 z-20">
         <NavContent currentStep={currentStep} />
       </aside>
 
